@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.parent{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+}
+
+.child_left{
+    width: 42%;
+}
+
+.child_right{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imager{
+    width: 300px;
+    height: 110px;
+}
+
+.child_left div img{
+    width: 100%;
+    height: 100%;
+}
+
+.child_left h2{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.form{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.form div input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 3% 0;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #dddfe2;
+}
+
+.form div input:hover{
+    cursor: text;
+}
+
+.form div input:focus{
+    outline-color: blue;
+}
+
+.btn{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.forg{
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 10px;
+}
+
+.forg a{
+    transition: .1s;
+    color:#1877f2;
+   
+}
+
+.forg:hover a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.creat{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.creat a{
+    padding: 5%;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.creat a:hover{
+    cursor: pointer;
+}
+
+.mmm a{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5%;
+}
+
+.line1{
+    padding: 1%;
+    border-bottom: 1px solid #8a8d91;
+}
+
+.footer div a{
+    color: #8a8d91;
+    margin-right: 5px ;
+}
+
