@@ -1,9 +1,13 @@
 function handler(){
     let div = document.createElement('div');
     div.className = 'checker';
+    let id2data = document.getElementById('id2').value
+
     let res = document.querySelector('.creator_input').value;
     div.innerHTML = `<div>
     <label><input type="checkbox" class="checkboxs">${res}</label>
+    </div>
+    <label><input type="date">${id2data}</label>
     </div>
     <button class="checker_button">+</button>`;
     let where = document.getElementById('high');
@@ -15,6 +19,7 @@ function handler(){
     });
 
 }
+
 function handler2(){
     let div = document.createElement('div');
     div.className = 'low_checker';
