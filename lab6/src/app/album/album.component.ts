@@ -3,6 +3,7 @@ import {Post} from "../models";
 import {POSTS} from "../fake-db";
 import {AlbumService} from "../post.service";
 
+
 @Component({
   selector: 'app-album',
   templateUrl: './album.component.html',

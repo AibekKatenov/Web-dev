@@ -15,12 +15,14 @@ import { PhoneItemComponent } from './categories/phone-item/phone-item.component
 import { LaptopItemComponent } from './categories/laptop-item/laptop-item.component';
 import { AccessoryItemComponent } from './categories/accessory-item/accessory-item.component';
 import { IpadItemComponent } from './categories/ipad-item/ipad-item.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    MatCardModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },

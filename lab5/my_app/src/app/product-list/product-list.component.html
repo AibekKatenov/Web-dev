@@ -8,6 +8,7 @@
 <button class="but" (click)="filter()">Filter</button>
 
 <div *ngFor="let product of products">
+    <mat-card>
     <div id="{{product.id}}">
     <div class="imager">
         <img src={{product.Image}} alt="">
@@ -30,6 +31,7 @@
         [product]="product"
         (notify)="onNotify()">
     </app-product-alerts>
-    </div>
-
+</mat-card>
 </div>
+
+

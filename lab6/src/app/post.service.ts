@@ -17,4 +17,6 @@ export class AlbumService {
   getPost(id: number): Observable<Post>{
     return this.client.get<Post>(`https://jsonplaceholder.typicode.com/albums/${id}`)
   }
+  
+  
 }
